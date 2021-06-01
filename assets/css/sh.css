@@ -1,0 +1,72 @@
+#sh {
+  background: black;
+}
+
+#sh h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+#sh p {
+  color: white;
+}
+
+.shCol {
+  background: var(--cpink);
+}
+
+.shColb {
+  background: var(--cpink);
+}
+
+@media (max-width: 991px) {
+  .shColb {
+    background: black;
+  }
+}
+
+.shCol:hover > h4, .shCol:hover > p {
+  color: black !important;
+}
+
+.shColb:hover > h4, .shColb:hover > p {
+  color: black !important;
+}
+
+@media (max-width: 991px) {
+  .shColb:hover > h4, .shColb:hover > p {
+    color: var(--cpink) !important;
+  }
+}
+
+.shCol a {
+  color: black;
+}
+
+.shColb a {
+  color: black;
+}
+
+@media (max-width: 991px) {
+  .shColb a {
+    color: var(--cpink);
+  }
+}
+
+.shCol a:hover {
+  color: white;
+  font-weight: bolder;
+}
+
+.shColb a:hover {
+  color: white;
+  font-weight: bolder;
+}
+
+.shCol, .shColb {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+

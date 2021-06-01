@@ -1,0 +1,53 @@
+.speakers .card {
+  /*height: 500px;*/
+  /*background: transparent;*/
+  /*border: none;*/
+}
+
+.cardh, .cardTitle, .cardName, .cardLink {
+  /*margin: 0px !important;*/
+  /*margin-bottom: 3px !important;*/
+  /*background-color: var(--cwhite);*/
+}
+
+.cardTitle, .cardName, .cardLink {
+  /*font-size: 14px;*/
+}
+
+.cardh {
+  /*font-family: 'Bebas Neue', serif;*/
+  /*font-size: 50px;*/
+}
+
+.cardTitle, .cardName, .cardLink {
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+
+.cardColumn {
+  /*padding-left: 12px;*/
+  /*padding-right: 12px;*/
+  /*padding: 5px;*/
+  /*margin-bottom: 40px;*/
+  /*display: flex!important;*/
+  /*justify-content: center!important;*/
+}
+
+.cardBgDiv {
+  /*width: 271px;*/
+}
+
+.card {
+  /*display: flex!important;*/
+  justify-content: flex-end!important;
+}
+
+.bio {
+  /*color: white;*/
+  /*display: none;*/
+  /*width: 100%;*/
+}
+
+.card:hover > .bio {
+  /*display: initial;*/
+}
+

@@ -1,0 +1,304 @@
+:root {
+  --cpink: #F40096;
+  --cpinkd: rgb(159,0,97);
+  --cyellow: #FFFD47;
+  --cblue: #0000FF;
+  --cwhite: #ffffff;
+  --cblack: #1e1e1e;
+}
+
+.btn.active, .btn:active, .btn:focus, .btn:hover {
+  color: #fff;
+  border-color: white;
+  /*background-color: var(--cpink) !important;*/
+  /*background: hsla(0,0%,100%,.1) !important;*/
+  background: transparent !important;
+  outline: 0 !important;
+}
+
+.btn, .btn:focus, .btn:active {
+  outline: 0 !important;
+}
+
+#mainNav.navbar-shrink {
+  border-color: rgba(34,34,34,.05);
+  background-color: #000000;
+  transition: all .35s;
+}
+
+#mainNav.navbar-shrink #navbarResponsive.nav-link {
+  color: var(--cyellow) !important;
+}
+
+.bg-primary {
+  background: var(--cwhite) !important;
+}
+
+#sponsors2 {
+  background: black !important;
+}
+
+#sponsors {
+  background: var(--cyellow) !important;
+}
+
+#countdown {
+  background: var(--cpink) !important;
+}
+
+#learnmorepink:hover {
+  background-color: var(--cyellow) !important;
+  color: var(--cblack);
+}
+
+#partners {
+  background: url("../../assets/img/dubai-1085058_1920.jpg") top / auto;
+  background-image: url(../../assets/img/dubai-1085058_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /*background: black;*/
+}
+
+#some {
+  background: var(--cpink) !important;
+}
+
+#mainNav .navbar-nav > li > a, #mainNav .navbar-nav > li > a:focus {
+  color: var(--cwhite);
+}
+
+#mainNav.navbar-shrink .navbar-nav > li > a, #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+  color: var(--cwhite);
+}
+
+@media (max-width: 991px) {
+  #mainNav .navbar-nav > li > a, #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+    color: var(--cwhite);
+  }
+}
+
+@media (max-width: 991px) {
+  #mainNav {
+    background-color: black;
+  }
+}
+
+.twitter-timeline {
+  width: 100%;
+  max-height: 100%;
+}
+
+#mainNav .navbar-nav > li > a.active {
+  color: var(--cpink) !important;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+#mainNav .navbar-nav > li > a:hover {
+  color: var(--cpink) !important;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+#mainNav .navbar-nav > li > a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a {
+  color: var(--cpink);
+  transition: all .35s;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--cpinkd);
+  text-decoration: underline;
+}
+
+a:focus, a:hover {
+  color: var(--cpinkd);
+}
+
+#liveTitle {
+  font-family: 'Bebas Neue', serif !important;
+  font-size: 50px !important;
+  color: white !important;
+  max-width: 100%;
+}
+
+#liveFrame {
+  max-width: 100%;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.partnerLogo {
+  width: 200px;
+  margin: 10px;
+  filter: grayscale(100%) invert(100%);
+}
+
+.sImg {
+  filter: grayscale(100%) invert(100%);
+}
+
+.footerLink {
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+}
+
+.footerText {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .footerText {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 10px;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width:992px) {
+  #mainNav {
+    height: 80px;
+  }
+}
+
+.footerLogo {
+  width: 220px;
+  height: 84px;
+  background: url("../../assets/img/Partners/SNlogoWHITE.png") top / contain no-repeat;
+}
+
+.footerLogo:hover {
+  background: url("../../assets/img/Partners/SNlogocpinkd.png") top / contain no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', serif !important;
+}
+
+@media (max-width: 991px) {
+  .shCol {
+    min-width: 100%;
+  }
+}
+
+.abouttext {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.downArrow {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+
+.prBG {
+  height: 500px;
+  background: url("../../assets/img/dubai-1000.png") top / cover;
+  /*background: url("../../assets/img/dubai-1085058_1920.jpg") top / cover;*/
+  /*background-image: url(../../assets/img/dubai-1085058_1920.jpg);*/
+  /*background-position: center;*/
+  /*background-size: cover;*/
+}
+
+.footer a {
+  font-weight: normal;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+#schedule {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 576px) {
+  #contact {
+    padding-top: 40px;
+  }
+}
+
+h1 {
+  font-family: 'Bebas Neue', serif;
+  font-size: 99px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-family: 'Bebas Neue', serif;
+    font-size: 54px;
+  }
+}
+
+#intro {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 99px;
+}
+
+@media (max-width: 576px) {
+  #intro {
+    font-size: 54px;
+  }
+}
+
+.date {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  #logoImg {
+    display: none;
+  }
+}
+
+.R {
+  margin-left: 30px;
+}
+
+.nextPrevious {
+  text-decoration: none;
+}
+
+.nextPrevious:hover {
+  text-decoration: none;
+}
+
+#sp {
+  background: black;
+  min-height: 800px;
+}
+
+#sp h1 {
+  color: white;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.navLinkMobile {
+  font-size: 14px !important;
+}
+
