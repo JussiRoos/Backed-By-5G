@@ -4,6 +4,11 @@
 
 #sh h1, h2, h3, h4, h5, h6 {
   color: white;
+  line-height: 32px;
+}
+
+#sh h4 {
+  font-size: 28px;
 }
 
 #sh p {
@@ -24,41 +29,45 @@
   }
 }
 
-.shCol:hover > h4, .shCol:hover > p {
-  color: black !important;
+@media (min-width: 992px) {
+  .shCol:hover > h4, .shCol:hover > p, .shCol:hover > a {
+    color: black !important;
+  }
 }
 
-.shColb:hover > h4, .shColb:hover > p {
-  color: black !important;
+@media (min-width: 992px) {
+  .shColb:hover > h4, .shColb:hover > p, .shColb:hover > a {
+    color: black !important;
+  }
 }
 
 @media (max-width: 991px) {
   .shColb:hover > h4, .shColb:hover > p {
-    color: var(--cpink) !important;
+    /*color: var(--cpink) !important;*/
   }
 }
 
 .shCol a {
-  color: black;
+  color: white;
 }
 
 .shColb a {
-  color: black;
+  color: white;
 }
 
 @media (max-width: 991px) {
   .shColb a {
-    color: var(--cpink);
+    color: white;
   }
 }
 
 .shCol a:hover {
-  color: white;
+  /*color: white;*/
   font-weight: bolder;
 }
 
 .shColb a:hover {
-  color: white;
+  /*color: white;*/
   font-weight: bolder;
 }
 
@@ -66,7 +75,7 @@
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
