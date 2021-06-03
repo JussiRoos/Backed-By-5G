@@ -35,13 +35,13 @@
 }
 
 @media (min-width: 992px) {
-  .shCol:hover > h4, .shCol:hover > p, .shCol:hover > a {
+  .shCol:hover > .buttonLink h4, .shCol:hover > .buttonLink p, .shCol:hover > .buttonLink a {
     color: black !important;
   }
 }
 
 @media (min-width: 992px) {
-  .shColb:hover > h4, .shColb:hover > p, .shColb:hover > a {
+  .shColb:hover > .buttonLink h4, .shColb:hover > .buttonLink p, .shColb:hover > .buttonLink a {
     color: black !important;
   }
 }
@@ -82,5 +82,18 @@
   margin-bottom: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.buttonLink {
+  text-decoration: none;
+}
+
+.buttonLink:hover {
+  text-decoration: none;
+}
+
+.dtLink {
+  text-decoration: underline;
+  font-size: 15px;
 }
 
