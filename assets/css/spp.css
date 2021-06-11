@@ -168,16 +168,32 @@
   background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Marcus%20Wartiovaara.png") center / cover no-repeat;
 }
 
+#c14-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Thommie%20Burstrom.png") center / cover no-repeat;
+}
+
 .cdiv:hover > #c14 {
   background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Marcus%20Wartiovaara.png") center / cover no-repeat;
+}
+
+.cdiv:hover > #c14-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Thommie%20Burstrom.png") center / cover no-repeat;
 }
 
 #c15 {
   background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Jukka%20Talvitie.png") center / cover no-repeat;
 }
 
+#c15-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Tom%20Lahti.png") center / cover no-repeat;
+}
+
 .cdiv:hover > #c15 {
   background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Jukka%20Talvitie.png") center / cover no-repeat;
+}
+
+.cdiv:hover > #c15-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Tom%20Lahti.png") center / cover no-repeat;
 }
 
 #c16 {
@@ -210,6 +226,22 @@
 
 .cdiv:hover > #c19 {
   background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Edward%20Oughton.png") center / cover no-repeat;
+}
+
+#c19-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Jussi%20Impio.png") center / cover no-repeat;
+}
+
+.cdiv:hover > #c19-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Jussi%20Impio.png") center / cover no-repeat;
+}
+
+#c19-2 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Miika%20Huttunen.png") center / cover no-repeat;
+}
+
+.cdiv:hover > #c19-2 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Miika%20Huttunen.png") center / cover no-repeat;
 }
 
 #c20 {
@@ -252,6 +284,14 @@
   background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Ari%20Pouttu.png") center / cover no-repeat;
 }
 
+#c24-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Taina%20Tukiainen.png") center / cover no-repeat;
+}
+
+.cdiv:hover > #c24-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Taina%20Tukiainen.png") center / cover no-repeat;
+}
+
 #c25 {
   background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Ritva%20Reinikka.png") center / cover no-repeat;
 }
@@ -274,6 +314,14 @@
 
 .cdiv:hover > #c26-2 {
   background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Ari%20Kynäslahti.png") center / cover no-repeat;
+}
+
+#c26-3 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Magnus%20Frodigh.png") center / cover no-repeat;
+}
+
+.cdiv:hover > #c26-3 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Magnus%20Frodigh.png") center / cover no-repeat;
 }
 
 #c27 {
