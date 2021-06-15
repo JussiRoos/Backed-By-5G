@@ -300,6 +300,14 @@
   background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Ritva%20Reinikka.png") center / cover no-repeat;
 }
 
+#c25-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Jarmo%20Sareva.png") center / cover no-repeat;
+}
+
+.cdiv:hover > #c25-1 {
+  background: url("../../assets/img/frame.png") center / cover no-repeat, var(--cl1), url("../../assets/img/Speakers/Jarmo%20Sareva.png") center / cover no-repeat;
+}
+
 #c26 {
   background: url("../../assets/img/frame.png") center / cover no-repeat, url("../../assets/img/Speakers/Tommi%20Uitto.png") center / cover no-repeat;
 }
